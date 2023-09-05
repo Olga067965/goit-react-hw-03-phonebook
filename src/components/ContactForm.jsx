@@ -30,6 +30,8 @@ class ContactForm extends Component {
           <input
             type="text"
             name="name"
+            id="name"
+            autoComplete="name"
             value={name}
             onChange={this.handleChange}
           />
@@ -39,6 +41,8 @@ class ContactForm extends Component {
           <input
             type="tel"
             name="number"
+            id="number"
+            autoComplete="tel"
             value={number}
             onChange={this.handleChange}
           />
